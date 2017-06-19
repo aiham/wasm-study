@@ -12,7 +12,7 @@ This is a dumping ground for simple demos related to WebAssembly as I explore th
   ```
 1. Add necessary environment variables and modify PATH in the current shell:
   ```sh
-  source ./emsdk_env.sh
+  source ./emsdk/emsdk_env.sh
   ```
 
 1. If you want to use the rust demo, install rust and the emscripten target:
