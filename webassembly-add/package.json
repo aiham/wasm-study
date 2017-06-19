@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "compile-wasm": "wa compile -o add.wasm add.c",
+    "build-js": "browserify add.js > bundle.js",
+    "serve": "http-server",
+    "all": "npm run compile-wasm && npm run build-js && npm run serve"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0",
+    "webassembly": "^0.11.0"
+  }
+}
