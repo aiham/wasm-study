@@ -24,7 +24,7 @@ This is a dumping ground for simple demos related to WebAssembly as I explore th
 
 | Folder | Description |
 | --- | --- |
-| [hello]() | An example of compiling a C function and running it in the browser |
-| [simple-wat]() | An example of writing a module in text format and assembling into binary wasm |
-| [webassembly-add]() | Demo of [webassembly](https://www.npmjs.com/package/webassembly) npm module |
-| [rust-helloworld]() | An example of compiling a Rust function and running it in the browser |
+| [hello](./hello/) | An example of compiling a C function and running it in the browser |
+| [simple-wat](./simple-wat/) | An example of writing a module in text format and assembling into binary wasm |
+| [webassembly-add](./webassembly-add/) | Demo of [webassembly](https://www.npmjs.com/package/webassembly) npm module |
+| [rust-helloworld](./rust-helloworld/) | An example of compiling a Rust function and running it in the browser |
