@@ -6,16 +6,16 @@ This is a dumping ground for simple demos related to WebAssembly as I explore th
 
 1. Clone this repo.
 
-1. Install [emsdk](http://emscripten.org) locally within this repo folder (this will take a while):
+2. Install [emsdk](http://emscripten.org) locally within this repo folder (this will take a while):
   ```sh
   ./setup-em.sh
   ```
-1. Add necessary environment variables and modify PATH in the current shell:
+3. Add necessary environment variables and modify PATH in the current shell:
   ```sh
   source ./emsdk/emsdk_env.sh
   ```
 
-1. If you want to use the rust demo, install rust and the emscripten target:
+4. If you want to use the rust demo, install rust and the emscripten target:
   ```sh
   ./setup-rust.sh
   ```
